@@ -8,6 +8,36 @@ keyCodes:
   "~":
     modifiers: shift
     scanCode: 0x35
+  "à":
+  - {scanCode: 53, modifiers: alt}
+  - 4
+  "À":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "è":
+  - {scanCode: 53, modifiers: alt}
+  - 8
+  "È":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "ì":
+  - {scanCode: 53, modifiers: alt}
+  - 12
+  "Ì":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ò":
+  - {scanCode: 53, modifiers: alt}
+  - 18
+  "Ò":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "ù":
+  - {scanCode: 53, modifiers: alt}
+  - 24
+  "Ù":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
   "1": 0x1e
   "!":
     modifiers: shift
@@ -72,6 +102,36 @@ keyCodes:
   "E":
     modifiers: shift
     scanCode: 0x8
+  "á":
+  - {scanCode: 8, modifiers: alt}
+  - 4
+  "Á":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "é":
+  - {scanCode: 8, modifiers: alt}
+  - 8
+  "É":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "í":
+  - {scanCode: 8, modifiers: alt}
+  - 12
+  "Í":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ó":
+  - {scanCode: 8, modifiers: alt}
+  - 18
+  "Ó":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "ú":
+  - {scanCode: 8, modifiers: alt}
+  - 24
+  "Ú":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
   "r": 0x15
   "R":
     modifiers: shift
@@ -88,10 +148,76 @@ keyCodes:
   "U":
     modifiers: shift
     scanCode: 0x18
+  "ä":
+  - {scanCode: 24, modifiers: alt}
+  - 4
+  "Ä":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "ë":
+  - {scanCode: 24, modifiers: alt}
+  - 8
+  "Ë":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "ï":
+  - {scanCode: 24, modifiers: alt}
+  - 12
+  "Ï":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ö":
+  - {scanCode: 24, modifiers: alt}
+  - 18
+  "Ö":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "ü":
+  - {scanCode: 24, modifiers: alt}
+  - 24
+  "Ü":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
+  "ÿ":
+  - {scanCode: 24, modifiers: alt}
+  - 28
+  "Ÿ":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 28, modifiers: shift}
   "i": 0x0c
   "I":
     modifiers: shift
     scanCode: 0x0c
+  "â":
+  - {scanCode: 12, modifiers: alt}
+  - 4
+  "Â":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "ê":
+  - {scanCode: 12, modifiers: alt}
+  - 8
+  "Ê":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "î":
+  - {scanCode: 12, modifiers: alt}
+  - 12
+  "Î":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ô":
+  - {scanCode: 12, modifiers: alt}
+  - 18
+  "Ô":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "û":
+  - {scanCode: 12, modifiers: alt}
+  - 24
+  "Û":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
   "o": 0x12
   "O":
     modifiers: shift
@@ -185,6 +311,24 @@ keyCodes:
   "N":
     modifiers: shift
     scanCode: 0x11
+  "ã":
+  - {scanCode: 0x11, modifiers: alt}
+  - 4
+  "Ã":
+  - {scanCode: 0x11, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "ñ":
+  - {scanCode: 0x11, modifiers: alt}
+  - 0x11
+  "Ñ":
+  - {scanCode: 0x11, modifiers: alt}
+  - {scanCode: 0x11, modifiers: shift}
+  "õ":
+  - {scanCode: 0x11, modifiers: alt}
+  - 18
+  "Õ":
+  - {scanCode: 0x11, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
   "m": 0x10
   "M":
     modifiers: shift
@@ -250,167 +394,32 @@ keyCodes:
   - {scanCode: 49, modifiers: [shift, alt]}
   "¿":
   - {scanCode: 56, modifiers: [shift, alt]}
-  "À":
-  - {scanCode: 53, modifiers: alt}
-  - {scanCode: 4, modifiers: shift}
-  "Á":
-  - {scanCode: 28, modifiers: [shift, alt]}
-  "Â":
-  - {scanCode: 16, modifiers: [shift, alt]}
-  "Ã":
-  - {scanCode: 17, modifiers: alt}
-  - {scanCode: 4, modifiers: shift}
-  "Ä":
-  - {scanCode: 24, modifiers: alt}
-  - {scanCode: 4, modifiers: shift}
   "Å":
   - {scanCode: 4, modifiers: [shift, alt]}
   "Æ":
   - {scanCode: 52, modifiers: [shift, alt]}
   "Ç":
   - {scanCode: 6, modifiers: [shift, alt]}
-  "È":
-  - {scanCode: 53, modifiers: alt}
-  - {scanCode: 8, modifiers: shift}
-  "É":
-  - {scanCode: 8, modifiers: alt}
-  - {scanCode: 8, modifiers: shift}
-  "Ê":
-  - {scanCode: 12, modifiers: alt}
-  - {scanCode: 8, modifiers: shift}
-  "Ë":
-  - {scanCode: 24, modifiers: alt}
-  - {scanCode: 8, modifiers: shift}
-  "Ì":
-  - {scanCode: 53, modifiers: alt}
-  - {scanCode: 12, modifiers: shift}
-  "Í":
-  - {scanCode: 22, modifiers: [shift, alt]}
-  "Î":
-  - {scanCode: 7, modifiers: [shift, alt]}
-  "Ï":
-  - {scanCode: 9, modifiers: [shift, alt]}
-  "Ñ":
-  - {scanCode: 17, modifiers: alt}
-  - {scanCode: 17, modifiers: shift}
-  "Ò":
-  - {scanCode: 15, modifiers: [shift, alt]}
-  "Ó":
-  - {scanCode: 11, modifiers: [shift, alt]}
-  "Ô":
-  - {scanCode: 13, modifiers: [shift, alt]}
-  "Õ":
-  - {scanCode: 17, modifiers: alt}
-  - {scanCode: 18, modifiers: shift}
-  "Ö":
-  - {scanCode: 24, modifiers: alt}
-  - {scanCode: 18, modifiers: shift}
   "Ø":
   - {scanCode: 18, modifiers: [shift, alt]}
-  "Ù":
-  - {scanCode: 53, modifiers: alt}
-  - {scanCode: 24, modifiers: shift}
-  "Ú":
-  - {scanCode: 51, modifiers: [shift, alt]}
-  "Û":
-  - {scanCode: 12, modifiers: alt}
-  - {scanCode: 24, modifiers: shift}
-  "Ü":
-  - {scanCode: 24, modifiers: alt}
-  - {scanCode: 24, modifiers: shift}
   "ß":
   - {scanCode: 22, modifiers: alt}
-  "à":
-  - {scanCode: 53, modifiers: alt}
-  - 4
-  "á":
-  - {scanCode: 8, modifiers: alt}
-  - 4
-  "â":
-  - {scanCode: 12, modifiers: alt}
-  - 4
-  "ã":
-  - {scanCode: 17, modifiers: alt}
-  - 4
-  "ä":
-  - {scanCode: 24, modifiers: alt}
-  - 4
   "å":
   - {scanCode: 4, modifiers: alt}
   "æ":
   - {scanCode: 52, modifiers: alt}
   "ç":
   - {scanCode: 6, modifiers: alt}
-  "è":
-  - {scanCode: 53, modifiers: alt}
-  - 8
-  "é":
-  - {scanCode: 8, modifiers: alt}
-  - 8
-  "ê":
-  - {scanCode: 12, modifiers: alt}
-  - 8
-  "ë":
-  - {scanCode: 24, modifiers: alt}
-  - 8
-  "ì":
-  - {scanCode: 53, modifiers: alt}
-  - 12
-  "í":
-  - {scanCode: 8, modifiers: alt}
-  - 12
-  "î":
-  - {scanCode: 12, modifiers: alt}
-  - 12
-  "ï":
-  - {scanCode: 24, modifiers: alt}
-  - 12
-  "ñ":
-  - {scanCode: 17, modifiers: alt}
-  - 17
-  "ò":
-  - {scanCode: 53, modifiers: alt}
-  - 18
-  "ó":
-  - {scanCode: 8, modifiers: alt}
-  - 18
-  "ô":
-  - {scanCode: 12, modifiers: alt}
-  - 18
-  "õ":
-  - {scanCode: 17, modifiers: alt}
-  - 18
-  "ö":
-  - {scanCode: 24, modifiers: alt}
-  - 18
   "÷":
   - {scanCode: 56, modifiers: alt}
   "ø":
   - {scanCode: 18, modifiers: alt}
-  "ù":
-  - {scanCode: 53, modifiers: alt}
-  - 24
-  "ú":
-  - {scanCode: 8, modifiers: alt}
-  - 24
-  "û":
-  - {scanCode: 12, modifiers: alt}
-  - 24
-  "ü":
-  - {scanCode: 24, modifiers: alt}
-  - 24
-  "ÿ":
-  - {scanCode: 24, modifiers: alt}
-  - 28
   "ı":
   - {scanCode: 5, modifiers: [shift, alt]}
   "Œ":
   - {scanCode: 20, modifiers: [shift, alt]}
   "œ":
   - {scanCode: 20, modifiers: alt}
-  "Ÿ":
-  - {scanCode: 24, modifiers: alt}
-  - {scanCode: 28, modifiers: shift}
   "ƒ":
   - {scanCode: 9, modifiers: alt}
   "ˆ":

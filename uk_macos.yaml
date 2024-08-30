@@ -1,4 +1,4 @@
-# Mapping for US keyboards without support for non-ascii input.
+# Mapping for macOS British keyboards.
 name: UK macOS
 identifier: uk_macos
 unicode: none
